@@ -1,0 +1,1 @@
+cmd_/home/xuw/src/acorn/sqrldma/sqrldma.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/xuw/src/acorn/sqrldma/sqrldma.ko /home/xuw/src/acorn/sqrldma/sqrldma.o /home/xuw/src/acorn/sqrldma/sqrldma.mod.o;  true
